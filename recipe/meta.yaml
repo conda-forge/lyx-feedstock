@@ -20,7 +20,6 @@ requirements:
     - bc
     - make
     - pkg-config
-    - python >=3.6
     - {{ cdt('mesa-libgl-devel') }}  # [linux]
     - {{ cdt('mesa-dri-drivers') }}  # [linux]
     - {{ cdt('libselinux') }}  # [linux]
@@ -38,7 +37,7 @@ requirements:
     - zlib
     - xorg-libxfixes  # [linux]
   run:
-    - python >=3.6
+    - python
     - boost
     - hunspell
     - imagemagick
