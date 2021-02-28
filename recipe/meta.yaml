@@ -20,7 +20,6 @@ requirements:
     - bc
     - make
     - pkg-config
-    - python
     - {{ cdt('mesa-libgl-devel') }}  # [linux]
     - {{ cdt('mesa-dri-drivers') }}  # [linux]
     - {{ cdt('libselinux') }}  # [linux]
