@@ -11,7 +11,7 @@ source:
 
 build:
   skip: true  # [not linux]
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -20,6 +20,7 @@ requirements:
     - bc
     - make
     - pkg-config
+    - python
     - {{ cdt('mesa-libgl-devel') }}  # [linux]
     - {{ cdt('mesa-dri-drivers') }}  # [linux]
     - {{ cdt('libselinux') }}  # [linux]
@@ -28,7 +29,6 @@ requirements:
     - {{ cdt('libxext') }}  # [linux]
     - {{ cdt('libxcb') }}  # [linux]
   host:
-    - python
     - boost
     - hunspell
     - imagemagick
