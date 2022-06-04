@@ -11,7 +11,7 @@ source:
 
 build:
   skip: true  # [not linux]
-  number: 3
+  number: 4
 
 requirements:
   build:
@@ -33,7 +33,7 @@ requirements:
     - imagemagick
     - libiconv
     - libxcb
-    - qt
+    - qt-main
     - zlib
     - xorg-libxfixes  # [linux]
   run:
@@ -44,7 +44,7 @@ requirements:
     - libiconv
     - libxcb
     - texlive-core
-    - qt
+    - qt-main
     - zlib
 
 test:
