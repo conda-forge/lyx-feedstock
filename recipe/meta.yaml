@@ -1,5 +1,5 @@
 {% set name = "lyx" %}
-{% set version = "2.3.6.1" %}
+{% set version = "2.3.6.2" %}
 
 package:
   name: {{ name }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://ftp.lip6.fr/pub/lyx/stable/2.3.x/lyx-{{ version }}.tar.gz
-  sha256: 6d6f5458ebaac644cdfa35114d029e9ec57b4d930268d6d40bd9795d5c7e7929
+  sha256: 56a481f0a8d44348d9c226ead2e9d020d9ca9040210dca3f603703d5aaf730e3
 
 build:
   skip: true  # [not linux]
-  number: 5
+  number: 0
 
 requirements:
   build:
@@ -56,7 +56,7 @@ about:
   license: GPL-2.0-or-later
   license_family: GPL2
   license_file: COPYING
-  summary: 'An advanced WYSIWYM document processor & LaTeX front-end'
+  summary: An advanced WYSIWYM document processor & LaTeX front-end
 
 extra:
   recipe-maintainers:
