@@ -1,11 +1,11 @@
-About lyx
-=========
+About lyx-feedstock
+===================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lyx-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.lyx.org/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lyx-feedstock/blob/main/LICENSE.txt)
 
 Summary: An advanced WYSIWYM document processor & LaTeX front-end
 
