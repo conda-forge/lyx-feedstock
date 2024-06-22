@@ -11,11 +11,12 @@ source:
 
 build:
   skip: true  # [not linux]
-  number: 0
+  number: 1
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - bc
     - make
