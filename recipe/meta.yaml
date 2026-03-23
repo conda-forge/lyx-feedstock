@@ -11,7 +11,7 @@ source:
 
 build:
   skip: true  # [not linux]
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -20,13 +20,6 @@ requirements:
     - bc
     - make
     - pkg-config
-    - {{ cdt('mesa-libgl-devel') }}  # [linux]
-    - {{ cdt('mesa-dri-drivers') }}  # [linux]
-    - {{ cdt('libselinux') }}  # [linux]
-    - {{ cdt('libxdamage') }}  # [linux]
-    - {{ cdt('libxxf86vm') }}  # [linux]
-    - {{ cdt('libxext') }}  # [linux]
-    - {{ cdt('libxcb') }}  # [linux]
   host:
     - boost
     - hunspell
@@ -36,6 +29,7 @@ requirements:
     - qt-main
     - zlib
     - xorg-libxfixes  # [linux]
+    - libgl-devel                    # [linux]
   run:
     - python
     - boost
